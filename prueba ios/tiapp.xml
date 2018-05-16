@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.prueba.peliculas</id>
+    <name>prueba ios</name>
+    <version>1.0</version>
+    <publisher>siuk</publisher>
+    <url>undefined</url>
+    <description>undefined</description>
+    <copyright>2018 by siuk</copyright>
+    <icon>appicon.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>565a3ec3-f439-4a6d-8a4e-2d3dbb0dc7ca</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>false</enable-launch-screen-storyboard>
+        <default-background-color>#ffffff</default-background-color>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+                <key>NSCalendarsUsageDescription</key>
+                <string>Esta aplicación requiere permisos para acceder a su calendario para ayudarlo con sus tareas</string>
+                <key>NSCameraUsageDescription</key>
+                <string>Esta aplicación requiere permisos para acceder a su cámara fotográfica para personalizar su perfil de usuario</string>
+                <key>NSPhotoLibraryUsageDescription</key>
+                <string>Esta aplicación requiere permisos para acceder a su galería fotográfica para personalizar su perfil de usuario</string>
+                <key>NSMicrophoneUsageDescription</key>
+                <string>Esta aplicación requiere permisos para acceder a su micrófono para facilitar la comunicación por voz</string>
+                <key>NSAppleMusicUsageDescription</key>
+                <string>Esta aplicación requiere permisos para acceder a su música para hacer el trabajo más entretenido</string>
+                <key>ITSAppUsesNonExemptEncryption</key>
+                <false/>
+                <key>CFBundleLocalizations</key>
+                <array>
+                    <string>en</string>
+                </array>
+            </dict>
+        </plist>
+    </ios>
+     <modules>
+        <module platform="android" version="2.0.2">dk.napp.drawer</module>
+        <module platform="android" version="4.1.0">ti.goosh</module>
+        <module platform="android" version="4.0.1">ti.ga</module>
+        <module platform="iphone" version="2.2.0">ti.ga</module>
+        <module platform="iphone" version="1.2.4">dk.napp.drawer</module>
+    </modules>
+    <deployment-targets>
+        <target device="android">true</target>
+        <target device="ipad">false</target>
+        <target device="iphone">true</target>
+    </deployment-targets>
+    <sdk-version>7.1.1.GA</sdk-version>
+    <property name="appc-app-id" type="string">5afb17c5b3e2ee67ea38a51b</property>
+</ti:app>

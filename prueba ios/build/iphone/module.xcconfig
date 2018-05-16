@@ -1,0 +1,5 @@
+// this is a generated file - DO NOT EDIT
+
+TI_GA_OTHER_LDFLAGS=$(inherited) -framework CoreData
+DK_NAPP_DRAWER_OTHER_LDFLAGS=$(inherited) -framework QuartzCore
+OTHER_LDFLAGS=$(inherited) $(TI_GA_OTHER_LDFLAGS) $(DK_NAPP_DRAWER_OTHER_LDFLAGS) 
